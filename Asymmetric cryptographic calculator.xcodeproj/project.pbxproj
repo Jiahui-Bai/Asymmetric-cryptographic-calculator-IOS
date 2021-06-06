@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C278A89266C8C3E002302A5 /* RSA_Generate_PK_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C278A88266C8C3E002302A5 /* RSA_Generate_PK_UI.swift */; };
+		4C278A8B266C8C80002302A5 /* Paillier_Generate_PK_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C278A8A266C8C80002302A5 /* Paillier_Generate_PK_UI.swift */; };
+		4C9FD533266B256500E4368D /* Asymmetric_cryptographic_calculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD532266B256500E4368D /* Asymmetric_cryptographic_calculatorApp.swift */; };
+		4C9FD535266B256500E4368D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD534266B256500E4368D /* ContentView.swift */; };
+		4C9FD537266B256800E4368D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FD536266B256800E4368D /* Assets.xcassets */; };
+		4C9FD53A266B256800E4368D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9FD539266B256800E4368D /* Preview Assets.xcassets */; };
+		4C9FD545266B256800E4368D /* Asymmetric_cryptographic_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD544266B256800E4368D /* Asymmetric_cryptographic_calculatorTests.swift */; };
+		4C9FD550266B256800E4368D /* Asymmetric_cryptographic_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD54F266B256800E4368D /* Asymmetric_cryptographic_calculatorUITests.swift */; };
+		4C9FD563266B25FB00E4368D /* ElGamal_Decryp_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD55D266B25FB00E4368D /* ElGamal_Decryp_UI.swift */; };
+		4C9FD564266B25FB00E4368D /* RSA_Decryp_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD55E266B25FB00E4368D /* RSA_Decryp_UI.swift */; };
+		4C9FD565266B25FB00E4368D /* RSA_Encryp_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD55F266B25FB00E4368D /* RSA_Encryp_UI.swift */; };
+		4C9FD566266B25FB00E4368D /* Paillier_Encryp_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD560266B25FB00E4368D /* Paillier_Encryp_UI.swift */; };
+		4C9FD567266B25FB00E4368D /* Paillier_Decryp_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD561266B25FB00E4368D /* Paillier_Decryp_UI.swift */; };
+		4C9FD568266B25FB00E4368D /* ElGamal_Encryp_UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD562266B25FB00E4368D /* ElGamal_Encryp_UI.swift */; };
+		4C9FD56A266B379500E4368D /* Swift-Big-Number-Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD569266B379500E4368D /* Swift-Big-Number-Core.swift */; };
+		4C9FD56C266B4B7D00E4368D /* ElGamalCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD56B266B4B7D00E4368D /* ElGamalCalculate.swift */; };
+		4C9FD56E266B4FDC00E4368D /* PaillierCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9FD56D266B4FDC00E4368D /* PaillierCalculate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C9FD541266B256800E4368D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9FD527266B256500E4368D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9FD52E266B256500E4368D;
+			remoteInfo = "Asymmetric cryptographic calculator";
+		};
+		4C9FD54C266B256800E4368D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C9FD527266B256500E4368D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9FD52E266B256500E4368D;
+			remoteInfo = "Asymmetric cryptographic calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C278A88266C8C3E002302A5 /* RSA_Generate_PK_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_Generate_PK_UI.swift; sourceTree = "<group>"; };
+		4C278A8A266C8C80002302A5 /* Paillier_Generate_PK_UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paillier_Generate_PK_UI.swift; sourceTree = "<group>"; };
+		4C278A8F266C9588002302A5 /* Asymmetric cryptographic calculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Asymmetric cryptographic calculator.entitlements"; sourceTree = "<group>"; };
+		4C9FD52F266B256500E4368D /* Asymmetric cryptographic calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asymmetric cryptographic calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9FD532266B256500E4368D /* Asymmetric_cryptographic_calculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asymmetric_cryptographic_calculatorApp.swift; sourceTree = "<group>"; };
+		4C9FD534266B256500E4368D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C9FD536266B256800E4368D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C9FD539266B256800E4368D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C9FD53B266B256800E4368D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9FD540266B256800E4368D /* Asymmetric cryptographic calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asymmetric cryptographic calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9FD544266B256800E4368D /* Asymmetric_cryptographic_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asymmetric_cryptographic_calculatorTests.swift; sourceTree = "<group>"; };
+		4C9FD546266B256800E4368D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9FD54B266B256800E4368D /* Asymmetric cryptographic calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Asymmetric cryptographic calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9FD54F266B256800E4368D /* Asymmetric_cryptographic_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asymmetric_cryptographic_calculatorUITests.swift; sourceTree = "<group>"; };
+		4C9FD551266B256800E4368D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9FD55D266B25FB00E4368D /* ElGamal_Decryp_UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElGamal_Decryp_UI.swift; sourceTree = "<group>"; };
+		4C9FD55E266B25FB00E4368D /* RSA_Decryp_UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSA_Decryp_UI.swift; sourceTree = "<group>"; };
+		4C9FD55F266B25FB00E4368D /* RSA_Encryp_UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSA_Encryp_UI.swift; sourceTree = "<group>"; };
+		4C9FD560266B25FB00E4368D /* Paillier_Encryp_UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paillier_Encryp_UI.swift; sourceTree = "<group>"; };
+		4C9FD561266B25FB00E4368D /* Paillier_Decryp_UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paillier_Decryp_UI.swift; sourceTree = "<group>"; };
+		4C9FD562266B25FB00E4368D /* ElGamal_Encryp_UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElGamal_Encryp_UI.swift; sourceTree = "<group>"; };
+		4C9FD569266B379500E4368D /* Swift-Big-Number-Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift-Big-Number-Core.swift"; sourceTree = "<group>"; };
+		4C9FD56B266B4B7D00E4368D /* ElGamalCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElGamalCalculate.swift; sourceTree = "<group>"; };
+		4C9FD56D266B4FDC00E4368D /* PaillierCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaillierCalculate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C9FD52C266B256500E4368D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9FD53D266B256800E4368D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9FD548266B256800E4368D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C278A8C266C8F08002302A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FD569266B379500E4368D /* Swift-Big-Number-Core.swift */,
+				4C9FD56B266B4B7D00E4368D /* ElGamalCalculate.swift */,
+				4C9FD56D266B4FDC00E4368D /* PaillierCalculate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C278A8E266C8F63002302A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FD534266B256500E4368D /* ContentView.swift */,
+				4C9FD55D266B25FB00E4368D /* ElGamal_Decryp_UI.swift */,
+				4C9FD562266B25FB00E4368D /* ElGamal_Encryp_UI.swift */,
+				4C9FD561266B25FB00E4368D /* Paillier_Decryp_UI.swift */,
+				4C9FD560266B25FB00E4368D /* Paillier_Encryp_UI.swift */,
+				4C278A8A266C8C80002302A5 /* Paillier_Generate_PK_UI.swift */,
+				4C9FD55E266B25FB00E4368D /* RSA_Decryp_UI.swift */,
+				4C278A88266C8C3E002302A5 /* RSA_Generate_PK_UI.swift */,
+				4C9FD55F266B25FB00E4368D /* RSA_Encryp_UI.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C9FD526266B256500E4368D = {
+			isa = PBXGroup;
+			children = (
+				4C9FD531266B256500E4368D /* Asymmetric cryptographic calculator */,
+				4C9FD543266B256800E4368D /* Asymmetric cryptographic calculatorTests */,
+				4C9FD54E266B256800E4368D /* Asymmetric cryptographic calculatorUITests */,
+				4C9FD530266B256500E4368D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C9FD530266B256500E4368D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FD52F266B256500E4368D /* Asymmetric cryptographic calculator.app */,
+				4C9FD540266B256800E4368D /* Asymmetric cryptographic calculatorTests.xctest */,
+				4C9FD54B266B256800E4368D /* Asymmetric cryptographic calculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C9FD531266B256500E4368D /* Asymmetric cryptographic calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4C278A8F266C9588002302A5 /* Asymmetric cryptographic calculator.entitlements */,
+				4C278A8E266C8F63002302A5 /* View */,
+				4C278A8C266C8F08002302A5 /* Model */,
+				4C9FD532266B256500E4368D /* Asymmetric_cryptographic_calculatorApp.swift */,
+				4C9FD536266B256800E4368D /* Assets.xcassets */,
+				4C9FD53B266B256800E4368D /* Info.plist */,
+				4C9FD538266B256800E4368D /* Preview Content */,
+			);
+			path = "Asymmetric cryptographic calculator";
+			sourceTree = "<group>";
+		};
+		4C9FD538266B256800E4368D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FD539266B256800E4368D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C9FD543266B256800E4368D /* Asymmetric cryptographic calculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FD544266B256800E4368D /* Asymmetric_cryptographic_calculatorTests.swift */,
+				4C9FD546266B256800E4368D /* Info.plist */,
+			);
+			path = "Asymmetric cryptographic calculatorTests";
+			sourceTree = "<group>";
+		};
+		4C9FD54E266B256800E4368D /* Asymmetric cryptographic calculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FD54F266B256800E4368D /* Asymmetric_cryptographic_calculatorUITests.swift */,
+				4C9FD551266B256800E4368D /* Info.plist */,
+			);
+			path = "Asymmetric cryptographic calculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C9FD52E266B256500E4368D /* Asymmetric cryptographic calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9FD554266B256800E4368D /* Build configuration list for PBXNativeTarget "Asymmetric cryptographic calculator" */;
+			buildPhases = (
+				4C9FD52B266B256500E4368D /* Sources */,
+				4C9FD52C266B256500E4368D /* Frameworks */,
+				4C9FD52D266B256500E4368D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asymmetric cryptographic calculator";
+			productName = "Asymmetric cryptographic calculator";
+			productReference = 4C9FD52F266B256500E4368D /* Asymmetric cryptographic calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C9FD53F266B256800E4368D /* Asymmetric cryptographic calculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9FD557266B256800E4368D /* Build configuration list for PBXNativeTarget "Asymmetric cryptographic calculatorTests" */;
+			buildPhases = (
+				4C9FD53C266B256800E4368D /* Sources */,
+				4C9FD53D266B256800E4368D /* Frameworks */,
+				4C9FD53E266B256800E4368D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9FD542266B256800E4368D /* PBXTargetDependency */,
+			);
+			name = "Asymmetric cryptographic calculatorTests";
+			productName = "Asymmetric cryptographic calculatorTests";
+			productReference = 4C9FD540266B256800E4368D /* Asymmetric cryptographic calculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C9FD54A266B256800E4368D /* Asymmetric cryptographic calculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C9FD55A266B256800E4368D /* Build configuration list for PBXNativeTarget "Asymmetric cryptographic calculatorUITests" */;
+			buildPhases = (
+				4C9FD547266B256800E4368D /* Sources */,
+				4C9FD548266B256800E4368D /* Frameworks */,
+				4C9FD549266B256800E4368D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C9FD54D266B256800E4368D /* PBXTargetDependency */,
+			);
+			name = "Asymmetric cryptographic calculatorUITests";
+			productName = "Asymmetric cryptographic calculatorUITests";
+			productReference = 4C9FD54B266B256800E4368D /* Asymmetric cryptographic calculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C9FD527266B256500E4368D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4C9FD52E266B256500E4368D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4C9FD53F266B256800E4368D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4C9FD52E266B256500E4368D;
+					};
+					4C9FD54A266B256800E4368D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 4C9FD52E266B256500E4368D;
+					};
+				};
+			};
+			buildConfigurationList = 4C9FD52A266B256500E4368D /* Build configuration list for PBXProject "Asymmetric cryptographic calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C9FD526266B256500E4368D;
+			productRefGroup = 4C9FD530266B256500E4368D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C9FD52E266B256500E4368D /* Asymmetric cryptographic calculator */,
+				4C9FD53F266B256800E4368D /* Asymmetric cryptographic calculatorTests */,
+				4C9FD54A266B256800E4368D /* Asymmetric cryptographic calculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C9FD52D266B256500E4368D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9FD53A266B256800E4368D /* Preview Assets.xcassets in Resources */,
+				4C9FD537266B256800E4368D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9FD53E266B256800E4368D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9FD549266B256800E4368D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C9FD52B266B256500E4368D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9FD563266B25FB00E4368D /* ElGamal_Decryp_UI.swift in Sources */,
+				4C9FD565266B25FB00E4368D /* RSA_Encryp_UI.swift in Sources */,
+				4C9FD568266B25FB00E4368D /* ElGamal_Encryp_UI.swift in Sources */,
+				4C278A89266C8C3E002302A5 /* RSA_Generate_PK_UI.swift in Sources */,
+				4C9FD56A266B379500E4368D /* Swift-Big-Number-Core.swift in Sources */,
+				4C9FD566266B25FB00E4368D /* Paillier_Encryp_UI.swift in Sources */,
+				4C9FD535266B256500E4368D /* ContentView.swift in Sources */,
+				4C9FD56C266B4B7D00E4368D /* ElGamalCalculate.swift in Sources */,
+				4C9FD533266B256500E4368D /* Asymmetric_cryptographic_calculatorApp.swift in Sources */,
+				4C9FD567266B25FB00E4368D /* Paillier_Decryp_UI.swift in Sources */,
+				4C278A8B266C8C80002302A5 /* Paillier_Generate_PK_UI.swift in Sources */,
+				4C9FD564266B25FB00E4368D /* RSA_Decryp_UI.swift in Sources */,
+				4C9FD56E266B4FDC00E4368D /* PaillierCalculate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9FD53C266B256800E4368D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9FD545266B256800E4368D /* Asymmetric_cryptographic_calculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C9FD547266B256800E4368D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9FD550266B256800E4368D /* Asymmetric_cryptographic_calculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C9FD542266B256800E4368D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9FD52E266B256500E4368D /* Asymmetric cryptographic calculator */;
+			targetProxy = 4C9FD541266B256800E4368D /* PBXContainerItemProxy */;
+		};
+		4C9FD54D266B256800E4368D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C9FD52E266B256500E4368D /* Asymmetric cryptographic calculator */;
+			targetProxy = 4C9FD54C266B256800E4368D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C9FD552266B256800E4368D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C9FD553266B256800E4368D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C9FD555266B256800E4368D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Asymmetric cryptographic calculator/Asymmetric cryptographic calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Asymmetric cryptographic calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = W33G9WKVNH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Asymmetric cryptographic calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.bai.Asymmetric-cryptographic-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C9FD556266B256800E4368D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Asymmetric cryptographic calculator/Asymmetric cryptographic calculator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Asymmetric cryptographic calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = W33G9WKVNH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Asymmetric cryptographic calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.bai.Asymmetric-cryptographic-calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C9FD558266B256800E4368D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Asymmetric cryptographic calculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.bai.Asymmetric-cryptographic-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asymmetric cryptographic calculator.app/Asymmetric cryptographic calculator";
+			};
+			name = Debug;
+		};
+		4C9FD559266B256800E4368D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Asymmetric cryptographic calculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.bai.Asymmetric-cryptographic-calculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asymmetric cryptographic calculator.app/Asymmetric cryptographic calculator";
+			};
+			name = Release;
+		};
+		4C9FD55B266B256800E4368D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Asymmetric cryptographic calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.bai.Asymmetric-cryptographic-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Asymmetric cryptographic calculator";
+			};
+			name = Debug;
+		};
+		4C9FD55C266B256800E4368D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Asymmetric cryptographic calculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiahui.bai.Asymmetric-cryptographic-calculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Asymmetric cryptographic calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C9FD52A266B256500E4368D /* Build configuration list for PBXProject "Asymmetric cryptographic calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9FD552266B256800E4368D /* Debug */,
+				4C9FD553266B256800E4368D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9FD554266B256800E4368D /* Build configuration list for PBXNativeTarget "Asymmetric cryptographic calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9FD555266B256800E4368D /* Debug */,
+				4C9FD556266B256800E4368D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9FD557266B256800E4368D /* Build configuration list for PBXNativeTarget "Asymmetric cryptographic calculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9FD558266B256800E4368D /* Debug */,
+				4C9FD559266B256800E4368D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C9FD55A266B256800E4368D /* Build configuration list for PBXNativeTarget "Asymmetric cryptographic calculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C9FD55B266B256800E4368D /* Debug */,
+				4C9FD55C266B256800E4368D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9FD527266B256500E4368D /* Project object */;
+}
